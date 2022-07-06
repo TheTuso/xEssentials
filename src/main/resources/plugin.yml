@@ -1,0 +1,25 @@
+main: pl.tuso.essentials.XEssentials
+name: xEssentials
+version: 1.0
+api-version: 1.19
+author: tuso
+depend:
+  - xCore
+  - LuckPerms
+
+commands:
+  hub:
+    permission: essentials.lobby
+    aliases:
+      - lobby
+  msg:
+    permission: essentials.msg
+    aliases:
+      - dm
+      - pm
+  reply:
+    permission: essentials.msg
+    aliases:
+      - r
+  xreload:
+    permission: essentials.reload

@@ -1,0 +1,7 @@
+# Supports MiniMessage format
+playerlist:
+  header: <br><bold><color:#FF3333>Dev Proxy</color> - <color:#0496FF>Velocity</color></bold><br><color:#FED8E7>Server powered by Velocity</color><br>
+  footer: <br><color:#FED8E7>You're on</color><br><color:#EC0868>${SERVER_NAME}</color><br>
+
+# Condition if the player should teleport to the spawn after joining
+spawn-on-join: false
