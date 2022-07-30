@@ -16,8 +16,8 @@ public class ProxyInfo {
         this.allPlayersPuller = new AllPlayersPuller(xEssentials.getCore());
         this.uniqueIdPuller = new UniqueIdPuller(xEssentials.getCore());
 
-        this.xEssentials.getCore().getMessagingService().registerListener(allPlayersPuller);
-        this.xEssentials.getCore().getMessagingService().registerListener(uniqueIdPuller);
+        this.xEssentials.getCore().getMessagingService().registerListener(this.allPlayersPuller);
+        this.xEssentials.getCore().getMessagingService().registerListener(this.uniqueIdPuller);
     }
 
     public Collection<String> getAllPlayers() {

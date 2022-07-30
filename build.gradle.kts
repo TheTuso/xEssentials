@@ -1,6 +1,6 @@
 plugins {
     id("java-library")
-    id("io.papermc.paperweight.userdev") version "1.3.6"
+    id("io.papermc.paperweight.userdev") version "1.3.8"
 }
 
 group = "pl.tuso.essentials"
@@ -23,7 +23,7 @@ repositories {
 }
 
 dependencies {
-    paperDevBundle("1.19-R0.1-SNAPSHOT")
+    paperDevBundle("1.19.1-R0.1-SNAPSHOT")
     implementation("pl.tuso.core:xcore:1.6")
     compileOnly("net.luckperms:api:5.4")
 }
